@@ -74,7 +74,7 @@ type PoolI interface {
 	PokePool(blockTime time.Time)
 }
 
-type PoolExternExitSwapExternAmountOutExtension interface {
+type PoolExitSwapExternAmountOutExtension interface {
 	PoolI
 	ExitSwapExternAmountOut(
 		ctx sdk.Context,
